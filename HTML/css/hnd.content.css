@@ -880,28 +880,29 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps25
 {
+ text-indent: -24px;
+ margin: 0px 0px 0px 24px;
 }
 .rvps26
 {
- margin: 0px 0px 0px 24px;
 }
 .rvps27
 {
- line-height: 1.50;
  margin: 0px 0px 0px 24px;
 }
 .rvps28
 {
  line-height: 1.50;
+ margin: 0px 0px 0px 24px;
 }
 .rvps29
 {
- text-align: center;
  line-height: 1.50;
 }
 .rvps30
 {
- line-height: 2.00;
+ text-align: center;
+ line-height: 1.50;
 }
 .rvps31
 {
@@ -909,25 +910,29 @@ p,ul,ol /* Paragraph Style */
 }
 .rvps32
 {
- background: #ffffff;
+ line-height: 2.00;
 }
 .rvps33
 {
- text-align: center;
+ background: #ffffff;
 }
 .rvps34
 {
+ text-align: center;
 }
 .rvps35
 {
- line-height: 1.50;
- margin: 0px 300px 0px 0px;
 }
 .rvps36
 {
  line-height: 1.50;
+ margin: 0px 300px 0px 0px;
 }
 .rvps37
+{
+ line-height: 1.50;
+}
+.rvps38
 {
  text-align: left;
  text-indent: 0px;
@@ -935,19 +940,19 @@ p,ul,ol /* Paragraph Style */
  padding: 0px 0px 0px 0px;
  margin: 0px 0px 0px 0px;
 }
-.rvps38
+.rvps39
 {
  line-height: 2.00;
  margin: 0px 300px 0px 0px;
 }
-.rvps39
+.rvps40
 {
  margin: 0px 24px 0px 24px;
 }
-.rvps40
+.rvps41
 {
 }
-.rvps41
+.rvps42
 {
  text-align: left;
  text-indent: 0px;
@@ -955,11 +960,11 @@ p,ul,ol /* Paragraph Style */
  padding: 0px 0px 0px 0px;
  margin: 0px 0px 0px 0px;
 }
-.rvps42
+.rvps43
 {
  margin: 1px 0px 1px 0px;
 }
-.rvps43
+.rvps44
 {
  text-align: left;
  text-indent: 0px;
@@ -968,15 +973,15 @@ p,ul,ol /* Paragraph Style */
  padding: 0px 0px 0px 0px;
  margin: 16px 0px 4px 0px;
 }
-.rvps44
+.rvps45
 {
  margin: 7px 0px 7px 0px;
 }
-.rvps45
+.rvps46
 {
  line-height: 2.00;
 }
-.rvps46
+.rvps47
 {
  line-height: 1.50;
  margin: 7px 0px 7px 0px;

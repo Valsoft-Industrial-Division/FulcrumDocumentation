@@ -1,0 +1,393 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>User Fields</title>
+  <meta name="description" content="UserFields" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="User Fields">
+  <meta name="twitter:description" content="UserFields">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="User Fields" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="UserFields" />
+  <meta property="og:site_name" content="Fulcrum Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Fulcrum Help</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="UserFields"
+		  data-hnd-context="9"
+		  data-hnd-title="User Fields"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="GettingStarted.html">Getting Started</a></li><li><a href="AdminTools.html">Admin Tools</a></li><li><a href="SystemManagement.html">System Management</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="SystemManagement.html" title="System Management" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ManagePermissionSets.html" title="Manage Permission Sets" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="UserTables.html" title="User Tables" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>User Fields</h2>
+
+            <div class="main-content">
+                
+<p class="rvps7"><a name="UserFields"></a><img width="366" height="44" alt="" style="padding : 1px;" src="lib/NewItem88.png"></p>
+<p class="rvps7"><span class="rvts26"><br/></span></p>
+<p class="rvps7"><img alt="" style="padding : 1px;" src="lib/NewItem87.png"></p>
+<p class="rvps7"><span class="rvts26"><br/></span></p>
+<p class="rvps7"><span class="rvts26"><br/></span></p>
+<p class="rvps7"><span class="rvts26"><br/></span></p>
+<p class="rvps14"><span class="rvts45">User Defined Fields allows users to add additional functionality and design in Fulcrum. &nbsp;</span></p>
+<p class="rvps14"><span class="rvts45">You can add custom fields with specialized rules for gathering data not supplied by default.&nbsp;</span></p>
+<p class="rvps14"><span class="rvts45">User Defined Fields will appear on the ticket entry screen and provide custom details specific to your needs.</span></p>
+<p class="rvps14"><img alt="" style="padding : 1px;" src="lib/NewItem86.png"></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts24"><br/></span></p>
+<p class="rvps2"><span class="rvts70"><br/></span></p>
+<h2 class="rvps25"><span class="rvts0"><span class="rvts59">Create User Field</span></span></h2>
+<p class="rvps36"><span class="rvts31"><br/></span></p>
+<p class="rvps14"><span class="rvts6">You can create customized fields for existing tables that can add specialized functionality and rules for gathering data.</span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem85.png"></p>
+<p class="rvps12"><span class="rvts24"><br/></span></p>
+<div class="rvps12">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="295" height="10" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">Table Name</span></p>
+  </td>
+  <td width="886" height="10" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Choose the table you would like to add the new field to from the drop down menu.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">Name</span></p>
+  </td>
+  <td width="886" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Enter the name you would like for your field.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">UI Name</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Enter the text to display on screen for the field.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">Data Type</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Street number and name.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">Required Entry</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts68">If checked will become a mandatory field.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">Place Holder</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts68">Sets the control’s Place Holder (Water Mark) text</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts56">Regular Expression for Validation</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Enter expression for validation.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts56">Regular Expression Failure Message</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts68">Message to display when entry does not match pattern.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="295" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts27">Default Value</span></p>
+  </td>
+  <td width="886" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Enter a preset value that will show by default.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts67"><br/></span></p>
+<p class="rvps2"><span class="rvts67"><br/></span></p>
+<p class="rvps2"><span class="rvts67"><br/></span></p>
+<p class="rvps2"><span class="rvts69"><br/></span></p>
+<p class="rvps2"><span class="rvts69"><br/></span></p>
+<h2 class="rvps32"><span class="rvts0"><span class="rvts59">Edit User Field</span></span></h2>
+<p class="rvps14"><span class="rvts60"><br/></span></p>
+<p class="rvps14"><span class="rvts6">Highlight the field you would like to edit and click on the 'Edit' button to the right.</span></p>
+<p class="rvps14"><img alt="" style="padding : 1px;" src="lib/NewItem84.png"></p>
+<p class="rvps12"><span class="rvts24"><br/></span></p>
+<p class="rvps12"><span class="rvts24"><br/></span></p>
+<p class="rvps12"><span class="rvts24"><br/></span></p>
+<p class="rvps14"><span class="rvts24"><br/></span></p>
+<p class="rvps12"><span class="rvts6">Users can edit the UI Name, Place Holder, Regular Expression for Validation, Regular Expression Failure Message and the Default value for a table field.</span></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<p class="rvps14"><img alt="" style="padding : 1px;" src="lib/NewItem83.png"></p>
+<p class="rvps2"><span class="rvts24"><br/></span></p>
+<p class="rvps2"><span class="rvts24"><br/></span></p>
+<p class="rvps2"><span class="rvts24"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps37"><span class="rvts0"><span class="rvts59">Delete User Field</span></span></h2>
+<p class="rvps12"><span class="rvts6">To delete a field, highlight the field you would like to remove and click on the </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem82.png"><span class="rvts6"> button to the right.</span></p>
+<p class="rvps12"><span class="rvts6"><br/></span></p>
+<p class="rvps12"><img alt="" style="padding : 1px;" src="lib/NewItem81.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps14"><span class="rvts24"><br/></span></p>
+<p class="rvps14"><span class="rvts24"><br/></span></p>
+<p class="rvps29"><span class="rvts6">User will be asked to confirm deletion. If you do not wish to continue with the field deletion, click </span><img width="88" height="33" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem80.png"><span class="rvts6"> and the field will not be removed.&nbsp;</span></p>
+<p class="rvps29"><span class="rvts6">Clicking the</span><img width="56" height="31" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem79.png"><span class="rvts6"> button will remove the field and return you back to the list.</span></p>
+<p class="rvps14"><img alt="" style="padding : 1px;" src="lib/NewItem78.png"></p>
+<p class="rvps2"><span class="rvts24"></span><span class="rvts6"></span></p>
+<p class="rvps8" style="clear: both;"><span class="rvts22">Created with the Personal Edition of HelpNDoc: </span><a class="rvts23" href="https://www.helpndoc.com/feature-tour/iphone-website-generation">Free iPhone documentation generator</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

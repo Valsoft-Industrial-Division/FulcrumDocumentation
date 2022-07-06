@@ -1,0 +1,1290 @@
+/* ========== Text Styles ========== */
+hr { color: #000000}
+.main-content, .main-content table span.rvts0 /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts6
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts7
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts8
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts9
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ color: #800000;
+}
+a.rvts10, span.rvts10
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #008000;
+ text-decoration: underline;
+}
+span.rvts11
+{
+ font-size: 11pt;
+ font-family: 'Calibri';
+ color: #000000;
+}
+a.rvts12, span.rvts12
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts13
+{
+ font-size: 11pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ color: #000000;
+}
+span.rvts14
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts15
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts16
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts17
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts18
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts19
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts20
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts21
+{
+ font-size: 20pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts22
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts23
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts24 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #c0c0c0;
+}
+a.rvts25, span.rvts25 /* Font Style */
+{
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-style: italic;
+ color: #6666ff;
+ text-decoration: underline;
+}
+span.rvts26
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts27
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts28
+{
+ font-size: 16pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000080;
+ text-transform: uppercase;
+}
+span.rvts29
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: ;
+}
+span.rvts30
+{
+ font-size: 15pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000080;
+ text-transform: uppercase;
+}
+span.rvts31
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ background-color: #ffff00;
+}
+span.rvts32
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts33
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+ background-color: #ffffff;
+}
+a.rvts34, span.rvts34
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts35
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts36
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+ background-color: #ffffff;
+}
+span.rvts37
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+ background-color: #ffffff;
+}
+span.rvts38
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts39
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: ;
+ background-color: #ffffff;
+}
+span.rvts40
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #190000;
+ background-color: #ffffff;
+}
+span.rvts41
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #190000;
+ background-color: #ffffff;
+}
+a.rvts42, span.rvts42
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ background-color: #ffffff;
+ text-decoration: underline;
+}
+span.rvts43
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts44
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts45
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts46
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: ;
+}
+span.rvts47
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts48
+{
+ font-size: 15pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts49
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts50
+{
+ font-size: 15pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts51
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts52
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts53
+{
+ font-size: 11pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts54
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts55
+{
+ font-size: 12pt;
+ font-family: 'Arial,Bold';
+ color: #000000;
+}
+span.rvts56
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts57
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts58
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts59
+{
+ font-size: 11pt;
+ font-family: 'Calibri';
+ color: #0070c0;
+}
+span.rvts60
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts61
+{
+ font-size: 11pt;
+ font-family: 'Calibri';
+ color: #000000;
+}
+span.rvts62
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts63
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts64
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts65
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts66
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts67
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: ;
+}
+span.rvts68
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts69
+{
+ font-size: 21pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts70
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ color: #000000;
+}
+span.rvts71
+{
+ font-size: 11pt;
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts72
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts73
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts74
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts75
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts76
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: ;
+}
+span.rvts77
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts78
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts79
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #161616;
+ background-color: #ffffff;
+}
+span.rvts80
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #333333;
+ background-color: #ffffff;
+}
+span.rvts81
+{
+ font-size: 11pt;
+ font-family: 'microsoft sans serif';
+ color: #000000;
+}
+span.rvts82
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts83
+{
+ font-size: 12pt;
+ font-family: 'microsoft sans serif';
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts84
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts85
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: ;
+}
+span.rvts86
+{
+ font-size: 21pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts87
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts88
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts89
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts90
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts91
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+a.rvts92, span.rvts92
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts93
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts94
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ color: #000000;
+}
+span.rvts95
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+a.rvts96, span.rvts96
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts97, span.rvts97
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ text-decoration: none;
+}
+span.rvts98
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts99
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts100
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: ;
+}
+span.rvts101
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts102
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts103
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts104
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts105
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts106
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts107
+{
+ font-size: 9pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+span.rvts108
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts109
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts110
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts111
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts112
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts113
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ background-color: #ffffff;
+}
+span.rvts114
+{
+ font-size: 12pt;
+ font-family: 'Segoe UI';
+ color: ;
+}
+span.rvts115
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+}
+a.rvts116, span.rvts116
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #000000;
+ text-decoration: underline;
+}
+a.rvts117, span.rvts117
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.rvts118
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts119
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts120
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts121
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts122
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts123
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ color: #00a049;
+}
+span.rvts124
+{
+ font-size: 13pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts125
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts126
+{
+ font-size: 14pt;
+ font-family: 'Segoe UI';
+ color: #0070c0;
+}
+span.rvts127
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ color: #000000;
+}
+span.rvts128
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts129
+{
+ font-size: 11pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: ;
+}
+span.rvts130
+{
+ font-size: 16pt;
+ font-family: 'Segoe UI';
+ font-weight: bold;
+ color: #0070c0;
+}
+span.rvts131
+{
+ font-size: 16pt;
+ font-family: 'Segoe UI';
+ font-style: italic;
+ font-weight: bold;
+ color: #0070c0;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2
+{
+}
+.rvps3
+{
+ text-align: center;
+}
+.rvps4
+{
+ margin: 7px 300px 7px 0px;
+}
+.rvps5
+{
+ line-height: 1.50;
+}
+.rvps6
+{
+ text-align: center;
+ line-height: 1.50;
+}
+.rvps7
+{
+ text-align: center;
+ margin: 16px 0px 4px 0px;
+}
+.rvps8
+{
+ line-height: 1.50;
+ margin: 0px 300px 0px 24px;
+}
+.rvps9
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps10
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps11
+{
+ line-height: 1.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps12
+{
+}
+.rvps13
+{
+ margin: 0px 300px 11px 24px;
+}
+.rvps14 /* Paragraph Style */
+{
+ text-align: center;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: 1px;
+ border-right: none;
+ border-left: none;
+ padding: 2px 0px 2px 0px;
+ margin: 7px 0px 7px 0px;
+}
+.rvps15
+{
+ line-height: 1.50;
+ margin: 0px 300px 0px 0px;
+}
+.rvps16
+{
+ text-align: center;
+ line-height: 1.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps17
+{
+ margin: 0px 300px 0px 24px;
+}
+.rvps18
+{
+ text-align: center;
+}
+.rvps19
+{
+ margin: 0px 300px 0px 0px;
+}
+.rvps20
+{
+ line-height: 0.50;
+}
+.rvps21
+{
+ line-height: 1.50;
+ margin: 0px 300px 0px 24px;
+}
+.rvps22
+{
+ line-height: 0.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps23
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps24
+{
+ margin: 0px 300px 0px 24px;
+}
+.rvps25
+{
+ margin: 0px 0px 0px 48px;
+}
+.rvps26
+{
+ text-indent: -24px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 48px;
+}
+.rvps27
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.50;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps28
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 300px 4px 24px;
+}
+.rvps29
+{
+ text-indent: -24px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps30
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.50;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 300px 4px 24px;
+}
+.rvps31
+{
+ line-height: 1.50;
+ margin: 0px 0px 0px 48px;
+}
+.rvps32
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 2.00;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps33
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps34
+{
+ line-height: 1.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps35
+{
+ margin: 0px 0px 0px 48px;
+}
+.rvps36
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps37
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
+}
+.rvps38
+{
+ margin: 1px 0px 1px 0px;
+}
+.rvps39
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
+}
+.rvps40
+{
+ margin: 1px 0px 1px 24px;
+}
+.rvps41
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.50;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps42
+{
+}
+.rvps43
+{
+ line-height: 1.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps44
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps45
+{
+ text-indent: -24px;
+ line-height: 1.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps46
+{
+ text-align: center;
+ line-height: 1.50;
+}
+.rvps47
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps48
+{
+ text-align: center;
+ margin: 0px 0px 0px 24px;
+}
+.rvps49
+{
+ line-height: 2.00;
+ margin: 0px 0px 0px 24px;
+}
+.rvps50
+{
+ line-height: 2.00;
+ margin: 0px 0px 0px 24px;
+}
+.rvps51
+{
+ line-height: 2.00;
+}
+.rvps52
+{
+ background: #ffffff;
+}
+.rvps53
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 0px;
+}
+.rvps54
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 16px 0px 4px 24px;
+}
+.rvps55
+{
+ text-align: center;
+ margin: 0px 0px 0px 24px;
+}
+.rvps56
+{
+ margin: 0px 0px 0px 24px;
+}
+.rvps57
+{
+ line-height: 1.50;
+ margin: 0px 300px 0px 24px;
+}
+.rvps58
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps59
+{
+ line-height: 1.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps60
+{
+ text-align: left;
+ text-indent: 0px;
+ page-break-after: avoid;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 24px;
+}
+.rvps61
+{
+}
+.rvps62
+{
+ margin: 0px 24px 0px 24px;
+}
+.rvps63
+{
+ line-height: 2.00;
+ margin: 0px 300px 0px 24px;
+}
+.rvps64
+{
+ line-height: 1.50;
+ margin: 0px 24px 0px 24px;
+}
+.rvps65
+{
+ margin: 7px 0px 7px 0px;
+}
+.rvps66
+{
+ line-height: 1.50;
+}
+.rvps67
+{
+ line-height: 1.50;
+}
+.rvps68
+{
+ text-indent: 48px;
+ line-height: 0.50;
+ margin: 0px 0px 0px 24px;
+}
+.rvps69
+{
+ text-indent: 48px;
+ line-height: 0.50;
+}
+.rvps70
+{
+ margin: 7px 0px 7px 24px;
+}
+.rvps71
+{
+ line-height: 1.50;
+ margin: 7px 0px 7px 24px;
+}
+.rvps72
+{
+ line-height: 2.00;
+}
+.rvps73
+{
+ line-height: 2.00;
+ margin: 0px 0px 0px 24px;
+}

@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Manage Settings</title>
+  <meta name="description" content="UserSettings" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Manage Settings">
+  <meta name="twitter:description" content="UserSettings">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Manage Settings" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="UserSettings" />
+  <meta property="og:site_name" content="Fulcrum Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Fulcrum Help</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ManageSettings"
+		  data-hnd-context="5"
+		  data-hnd-title="Manage Settings"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="GettingStarted.html">Getting Started</a></li><li><a href="AdminTools.html">Admin Tools</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AdminTools.html" title="Admin Tools" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ChangePassword.html" title="Change Password" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="SystemManagement.html" title="System Management" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Manage Settings</h2>
+
+            <div class="main-content">
+                
+<p class="rvps6"><a name="ManageSettings"></a><img width="366" height="44" alt="" style="padding : 1px;" src="lib/NewItem40.png"></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><img alt="" style="padding : 1px;" src="lib/NewItem39.png"></p>
+<p class="rvps6"><span class="rvts14"><br/></span></p>
+<p class="rvps6"><span class="rvts14"><br/></span></p>
+<p class="rvps6"><span class="rvts14"><br/></span></p>
+<p class="rvps6"><span class="rvts14"><br/></span></p>
+<p class="rvps21"><span class="rvts32">This menu is used to control ticketing layout. If a field value is entered or a setting is turned on, it will be reflected in your ticket creation screen.</span></p>
+<p class="rvps24"><span class="rvts32">Click on the 'Setup WebSerial' button if you would like to use the WebSerial option, or if you would like to use </span><span class="rvts34">Device Hub</span><span class="rvts32"> you can access it from the Admin Tools menu.</span></p>
+<p class="rvps24"><span class="rvts32"><br/></span></p>
+<p class="rvps24"><span class="rvts44"><br/></span></p>
+<p class="rvps19"><span class="rvts33"><br/></span></p>
+<div class="rvps22">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="193" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts15">Ticket Form</span></p>
+  </td>
+  <td width="966" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select Ticket Receipt or Ticket Form.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="193" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts15">Ticket Signature options</span></p>
+  </td>
+  <td width="966" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Adds a signature box on the create ticket screen.</span></p>
+   <p class="rvps20"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="193" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts15">Default Location&nbsp;</span></p>
+  </td>
+  <td width="966" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Pick the default location that will be used in ticket details when creating a ticket.</span></p>
+   <p class="rvps20"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts36">No Signature</span></span></h2>
+<p class="rvps9"><span class="rvts37"><br/></span></p>
+<p class="rvps9"><span class="rvts37"><br/></span></p>
+<p class="rvps9"><span class="rvts39">If you do not want a signature box to show on the ticket screen, you can select None</span></p>
+<p class="rvps9"><span class="rvts39"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem649.png"></p>
+<p class="rvps9"><span class="rvts37"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts36">On screen Signature</span></span></h2>
+<p class="rvps9"><span class="rvts37"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps9"><span class="rvts38">If you Selecting On screen Signature, a signature box will be added to your create ticket screen, this is mainly used if your will be using a touch screen device for when creating tickets.</span></p>
+<p class="rvps9"><span class="rvts38">Once the signature has been captured, click the 'Accept' button to save the signature, or 'Clear' to start over.&nbsp;</span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps20"><span class="rvts33"><br/></span></p>
+<p class="rvps22"><img alt="" style="padding : 1px;" src="lib/NewItem485.png"></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<p class="rvps22"><span class="rvts38"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts36">Topaz Signature Pad</span></span></h2>
+<p class="rvps9"><span class="rvts37"><br/></span></p>
+<p class="rvps20"><span class="rvts19"><br/></span></p>
+<p class="rvps11"><span class="rvts35">Topaz SigPlusExtLite software tools allows you to capture handwritten signatures in Google Chrome, Microsoft Edge (Chromium), Mozilla Firefox, and Opera browsers using&nbsp;</span></p>
+<p class="rvps11"><span class="rvts35">Topaz Signature Pads and integrate them into a webpage.</span></p>
+<p class="rvps11"><span class="rvts35">Click on the link provided to Topaz's website and follow the instructions provided to install/configure your signature pad.</span></p>
+<p class="rvps2"><span class="rvts15"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem480.png"></p>
+<p class="rvps9"><span class="rvts38"><br/></span></p>
+<p class="rvps9"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts40"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts36">Installing Topaz SigPlusExLite</span></span></h2>
+<p class="rvps9"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38">Download and save Topaz SigPlusExtLite to your computer’ from the following URL: </span><a class="rvts42" href="www.topazsystems.com/software/SigPlusExtLite.exe" target="_blank">www.topazsystems.com/software/SigPlusExtLite.exe</a></p>
+<p class="rvps11"><span class="rvts40">Right click on the SigPlusExtLite icon and select "</span><span class="rvts41">Run as administrator</span><span class="rvts40">".</span></p>
+<p class="rvps11"><span class="rvts43">Note: </span><span class="rvts38">You will not see a desktop shortcut, since it is just a driver installation file.</span></p>
+<p class="rvps11"><span class="rvts40"><br/></span></p>
+<p class="rvps11"><span class="rvts40"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts36">Installing Topaz SigPlusExLite Browser Extension</span></span></h2>
+<p class="rvps9"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38">Installation steps for adding the Topaz SigPadExLite extension vary for each browser. Refer to section 3.2 of the Topaz Installation Guide to find directions for your preferred browser.</span></p>
+<p class="rvps11"><span class="rvts38">You can browse to </span><a class="rvts42" href="https://sigplusweb.com/sign_chrome_ff_sigplusextlite.html" target="_blank">https://sigplusweb.com/sign_chrome_ff_sigplusextlite.html</a><span class="rvts38"> &nbsp;to test the sigplus browser extension.</span></p>
+<p class="rvps11"><span class="rvts38">Click on the </span><span class="rvts33">Sign </span><span class="rvts38">button to bring up the Topaz sigplus window (be patient, this screen could take 4-5 seconds to open).</span></p>
+<p class="rvps11"><span class="rvts38">Write a test signature on your sig pad to make sure it is captured. You can erase the signature on screen with the eraser button, or cancel out of the capture window by hitting the red </span><span class="rvts33">X</span><span class="rvts38">.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem616.png"></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38">Click the green check box to generate the sig strings and to show the captured signature.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem617.png"></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts36">Using Signature Pad for ticketing</span></span></h2>
+<p class="rvps9"><span class="rvts38"><br/></span></p>
+<p class="rvps9"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38">Confirm that your Ticket signature options field is set to </span><span class="rvts33">Topaz Signature Pad </span><span class="rvts38">under </span><span class="rvts33">Manage Settings</span><span class="rvts38">.</span></p>
+<p class="rvps11"><span class="rvts38">On the </span><span class="rvts33">Create Ticket </span><span class="rvts38">screen, click the </span><span class="rvts33">Start Pad </span><span class="rvts38">button to open the Topaz Signature window.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem618.png"></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38">When the window opens, use the sigpad to enter a signature.</span></p>
+<p class="rvps11"><span class="rvts38">You can erase the signature on screen with the </span><span class="rvts33">eraser</span><span class="rvts38"> button, or </span><span class="rvts33">cancel</span><span class="rvts38"> out of the capture window by hitting the red </span><span class="rvts33">X</span><span class="rvts38">.</span></p>
+<p class="rvps11"><span class="rvts38">Click the green check box to save the signature and close out the signature window.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem621.png"></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts38">The captured signature will show in the signature box and will be saved on ticket.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem622.png"></p>
+<p class="rvps11"><span class="rvts38"><br/></span></p>
+<p class="rvps11"><span class="rvts43"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps11"><span class="rvts35"><br/></span></p>
+<p class="rvps25"><span class="rvts35"><br/></span></p>
+<p class="rvps9"><span class="rvts35"><br/></span></p>
+<p class="rvps9"><span class="rvts35"><br/></span></p>
+<p class="rvps9"><span class="rvts35"><br/></span></p>
+<p class="rvps19"><span class="rvts31"></span><span class="rvts6"></span></p>
+<p class="rvps14" style="clear: both;"><span class="rvts24">Created with the Personal Edition of HelpNDoc: </span><a class="rvts25" href="https://www.helpndoc.com/feature-tour/create-ebooks-for-amazon-kindle">Full-featured Kindle eBooks generator</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

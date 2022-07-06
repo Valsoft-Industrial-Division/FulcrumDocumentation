@@ -1,0 +1,789 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Customer Ticket List</title>
+  <meta name="description" content="CustomerTicketList" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Customer Ticket List">
+  <meta name="twitter:description" content="CustomerTicketList">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Customer Ticket List" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="CustomerTicketList" />
+  <meta property="og:site_name" content="Fulcrum Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Fulcrum Help</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="CustomerTicketList"
+		  data-hnd-context="21"
+		  data-hnd-title="Customer Ticket List"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="GettingStarted.html">Getting Started</a></li><li><a href="Ticketing.html">Ticketing</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="Ticketing.html" title="Ticketing" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="Ticketing.html" title="Ticketing" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="TicketStaging.html" title="CustomerTicket Staging" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Customer Ticket List</h2>
+
+            <div class="main-content">
+                
+<p class="rvps18"><a name="TicketList"></a><img width="366" height="44" alt="" style="padding : 1px;" src="lib/NewItem178.png"></p>
+<p class="rvps18"><span class="rvts14"><br/></span></p>
+<p class="rvps18"><img alt="" style="padding : 1px;" src="lib/NewItem646.png"></p>
+<p class="rvps18"><span class="rvts26"><br/></span></p>
+<p class="rvps18"><span class="rvts26"><br/></span></p>
+<p class="rvps18"><span class="rvts26"><br/></span></p>
+<p class="rvps48"><span class="rvts26"><br/></span></p>
+<p class="rvps11"><span class="rvts38">The Ticket List menu shows all tickets that have been created and displays ticket details.</span></p>
+<p class="rvps49"><img alt="" style="padding : 1px;" src="lib/NewItem685.png"></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="112" height="22" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Number&nbsp;</span></p>
+  </td>
+  <td width="1064" height="22" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Displays ticket number (click to view ticket details), print icon (click to reprint ticket) and @ (to resend emailed ticket to customer).</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="112" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Prefix</span></p>
+  </td>
+  <td width="1064" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">The ticket prefix set in </span><span class="rvts12">Site Info</span><span class="rvts6"> if multiple sites exist. If a user has a specific site assigned to them, they will only be able to see tickets for that site.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="112" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Customer</span></p>
+  </td>
+  <td width="1064" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">The Customer the ticket is associated with.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="112" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Status</span></p>
+  </td>
+  <td width="1064" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Shows the status of the ticket (Open, Closed, Void, Dispatch)</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="112" height="25" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Remarks</span></p>
+  </td>
+  <td width="1064" height="25" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Displays any remarks entered when ticket was created.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="112" height="24" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Created On</span></p>
+  </td>
+  <td width="1064" height="24" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Displays the date and time the ticket was created on.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6">User's have the ability to filter tickets based on their status. To do this, click on the Show Ticket Status drop down box and select the status you'd like to show tickets for.&nbsp;</span></p>
+<p class="rvps9"><span class="rvts6">Only tickets with the status you selected in the drop down will be displayed in the list.&nbsp;</span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem687.png"></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Create a Ticket</span></span></h2>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps48"><span class="rvts14"><br/></span></p>
+<p class="rvps57"><span class="rvts87">When creating a ticket, there are a few mandetory fields that need to be filled in (</span><a class="rvts92" href="Vehicles.html#Vehicle">Vehicle</a><span class="rvts87">, </span><a class="rvts92" href="Customers.html#customers">Customer</a><span class="rvts87">, </span><a class="rvts92" href="PriceSheets.html#PriceSheets">Price Sheet</a><span class="rvts87">) in order to add ticket details.&nbsp;</span></p>
+<p class="rvps57"><span class="rvts87">You can click on the </span><img width="26" height="27" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem206.png"><span class="rvts87"> button on select fields for quick lookup, or enter the </span><span class="rvts22">%</span><span class="rvts87"> symbol to show all applicable records in for a field.&nbsp;</span></p>
+<p class="rvps57"><span class="rvts87">If you only have one Site setup, the Site field will auto fill with that site.&nbsp;</span></p>
+<p class="rvps57"><span class="rvts87"><br/></span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/NewItem688.png"></p>
+<p class="rvps8"><span class="rvts11"><br/></span></p>
+<div class="rvps20">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Number</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Default number is 0. If left at 0, Fulcrum will auto increment the ticket number based on the last ticket entered.</span></p>
+   <p class="rvps20"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Date (auto filled)</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Shows current date.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Time (auto filled)</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Shows current time.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Status</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select Ticket Receipt or Ticket Form.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Site</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select the site the current ticket is for.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Staged Ticket (optional)</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Enter a pre-configure </span><a class="rvts12" href="TicketStaging.html#staging">ticket staging</a><span class="rvts6"> to allow for faster ticket creation. </span><span class="rvts54">*Note:</span><span class="rvts70"> Field will only show if you have active Staged Tickets setup.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Hauler (optional)</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select a </span><a class="rvts12" href="Haulers.html#Haulers">Hauler</a><span class="rvts6"> for your ticket. </span><span class="rvts54">*Note: </span><span class="rvts70">Field will only show if you have active Haulers setup.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Zone&nbsp;</span></p>
+  </td>
+  <td width="906" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select a </span><a class="rvts12" href="HaulZones.html#Zone">Zone</a><span class="rvts6"> for your ticket. </span><span class="rvts54">*Note: </span><span class="rvts70">Field will only show if you have an active Haulers setup.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Vehicle</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select a </span><a class="rvts12" href="Vehicles.html#Vehicle">Vehicle</a><span class="rvts6"> for your ticket.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Trailer</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select a </span><a class="rvts12" href="Trailers.html#Trailer">Trailer</a><span class="rvts6"> for your ticket.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Customer</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select a </span><a class="rvts12" href="Customers.html#customers">Customer </a><span class="rvts6">for your ticket.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Sales Order (optional)</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Enter a valid </span><a class="rvts12" href="SalesOrders.html#SalesOrders">Sales Order</a><span class="rvts6"> for the selected customer.</span></p>
+   <p class="rvps20"><span class="rvts6"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Price Sheet</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Select a valid price sheet to calculate products rates and unit of measure.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Remarks (optional)</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Lets the customer input additional information.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="198" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Signature (optional)</span></p>
+  </td>
+  <td width="906" height="18" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps20"><span class="rvts6">Allows capture of a Signature on tickets.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps15"><span class="rvts11"><br/></span></p>
+<p class="rvps15"><span class="rvts11"><br/></span></p>
+<p class="rvps15"><span class="rvts11"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Add Ticket Details</span></span></h2>
+<p class="rvps9"><span class="rvts72"><br/></span></p>
+<p class="rvps9"><span class="rvts72"><br/></span></p>
+<p class="rvps8"><span class="rvts73">By default, you will see one ticket detail line. Click the Edit Details button </span><img width="29" height="26" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem204.png"><span class="rvts73"> to the right to open the ticket details window.&nbsp;</span></p>
+<p class="rvps8"><span class="rvts73">Users can add multiple ticket detail lines if required.</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/NewItem689.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Ticket Detail window</span></span></h2>
+<p class="rvps9"><span class="rvts72"><br/></span></p>
+<p class="rvps8"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts72">&nbsp;</span><img alt="" style="padding : 1px;" src="lib/NewItem721.png"></p>
+<p class="rvps17"><span class="rvts72"><br/></span></p>
+<p class="rvps17"><span class="rvts11"><br/></span></p>
+<div class="rvps9">
+<table width="100%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="189" height="8" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Product</span></p>
+  </td>
+  <td width="1267" height="8" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Select the product for your ticket detail. </span><span class="rvts54">*Note:</span><span class="rvts70"> the product list is limited to products from your selected Price Sheet.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Location (optional)</span></p>
+  </td>
+  <td width="1267" height="20" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Used if you want to add location info to your ticket, or if you have multiple locations.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts27">Invt. Container (optional)</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">If you're using the inventory feature, select the container you are depleting from. </span><span class="rvts54">*Note:</span><span class="rvts70"> Field will only show if you have Inventory configured.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts27">Direction</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Select if this product is coming to your site, or if it is going out.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts27">UOM</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">The unit of measure your scale is weighing in. </span><span class="rvts54">Note</span><span class="rvts70">: the Ticket Details UOM will automatically be set to the Default UOM in your site setup.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Gross</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Records the Gross weight for ticket. Weight can be captured from the scale by clicking the scale icon to the right, or by manually entering it.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Tare</span></p>
+  </td>
+  <td width="1267" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Records the Tare weight for ticket. Weight can be captured from the scale by clicking the scale icon to the right, or by manually entering it.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Adjustment</span></p>
+  </td>
+  <td width="1267" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Used to adjust weight after weight has been recorded. *Note: Weight can be adjusted after ticket has been stored but ticket must have a status of open.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Net&nbsp;</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Auto calculated once a gross and tare have been entered. &nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Converted Qty.</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">The calculated conversion of your ticket uom to your rate uom (i.e pounds to tons).</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="189" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Quantity (optional)</span></p>
+  </td>
+  <td width="1267" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">If the ticket product is measure per item (EA), enter how many pieces are coming in/going out.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps8"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73">If you need to enter additional ticket detail, click on the </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem199.png"><span class="rvts72"> </span><span class="rvts73">icon to add another detail line.&nbsp;</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem691.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73">The new ticket detail has been added to the ticket. Click the Edit Details button </span><img width="29" height="26" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem204.png"><span class="rvts73"> to the right to enter ticket details.</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/NewItem692.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Delete Ticket Details</span></span></h2>
+<p class="rvps9"><span class="rvts72"><br/></span></p>
+<p class="rvps19"><span class="rvts88"><br/></span></p>
+<p class="rvps8"><span class="rvts73">If you would like to delete a ticket detail line, click the delete icon to the right of the ticket detail.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem693.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73">When you delete a ticket detail, you will not get a confirmation message. The page will refresh and the detail line has been removed.&nbsp;</span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem695.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Edit a Ticket Detail Rate</span></span></h2>
+<p class="rvps9"><span class="rvts72"><br/></span></p>
+<p class="rvps9"><span class="rvts72"><br/></span></p>
+<p class="rvps8"><span class="rvts73">You have the ability to change the original rates set in your selected Price Sheet.</span></p>
+<p class="rvps11"><span class="rvts73">You can adjust a rate by clicking the </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem702.png"><span class="rvts73"> button on the right side of the ticket detail line.&nbsp;</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem697.png"><br/><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts72"><br/></span></p>
+<p class="rvps17"><span class="rvts72"><br/></span></p>
+<p class="rvps8"><span class="rvts73">You can update any rate within in the rate detail screen. You can also change if the rate is taxable or not and also change the tax code.&nbsp;</span></p>
+<p class="rvps8"><span class="rvts73">Rate changes are applied as soon as the check box icon is clicked.&nbsp;</span></p>
+<p class="rvps8"><span class="rvts93">*Note: </span><span class="rvts94">You cannot update a product rate once a ticket has been saved (even if the ticket has a status of open).</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/NewItem701.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<div class="rvps9">
+<table width="100%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="103" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Rate</span></p>
+  </td>
+  <td width="1344" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Displays set rates from the applicable Price Sheet. &nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="103" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">UOM</span></p>
+  </td>
+  <td width="1344" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">The unit of measure (by uom, quantity or flat rate) being used for the rate.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="103" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Taxable</span></p>
+  </td>
+  <td width="1344" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Toggle to set if a rate is taxable or not.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="103" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Tax Code</span></p>
+  </td>
+  <td width="1344" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Allows you to select your tax configuration that determines tax percentages.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="103" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts15">Rate UOM</span></p>
+  </td>
+  <td width="1344" height="19" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 1px 3px;">
+   <p class="rvps2"><span class="rvts6">Sets the uom your rate is converted to.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts89"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Ticket Payment(s)</span></span></h2>
+<p class="rvps19"><span class="rvts88"><br/></span></p>
+<p class="rvps8"><span class="rvts73">Once the ticket details are filled in, you can see the Pay Details for your ticket by clicking the </span><img alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem191.png"><span class="rvts73"> button at the bottom of the ticket screen.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem705.png"></p>
+<p class="rvps17"><span class="rvts88"><br/></span></p>
+<p class="rvps17"><span class="rvts72"><br/></span></p>
+<p class="rvps17"><span class="rvts72"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73">The Payment screen will show Product, Rate Type, Rate, Quantity, Sub Total, Tax Total and Line Totals for all detail lines on the ticket.</span></p>
+<p class="rvps8"><span class="rvts73">Users can select the payment type and the amount being paid on the ticket.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem706.png"></p>
+<p class="rvps17"><span class="rvts72"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<h3 class="rvps36"><span class="rvts0"><span class="rvts95">There are four Payment options available; Cash, Check, Credit Card and Escrow.</span></span></h3>
+<p class="rvps19"><span class="rvts72"><br/></span></p>
+<p class="rvps19"><span class="rvts90"><br/></span></p>
+<p class="rvps19"><span class="rvts90"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Cash Payment</span></span></h2>
+<p class="rvps19"><span class="rvts88"><br/></span></p>
+<p class="rvps19"><span class="rvts88"><br/></span></p>
+<p class="rvps8"><span class="rvts73">Select 'Cash' under Payment Type and enter the amount to be paid if the customer is making a cash payment.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem707.png"></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts89"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Check Payment</span></span></h2>
+<p class="rvps19"><span class="rvts88"><br/></span></p>
+<p class="rvps17"><span class="rvts89"><br/></span></p>
+<p class="rvps8"><span class="rvts73">If a Customer is paying by check, select Check from the Payment Type drop down. Enter a check number, amount being paid and a</span></p>
+<p class="rvps8"><span class="rvts73">ACH/ECP (if applicable).</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem708.png"></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts72"><br/></span></p>
+<p class="rvps19"><span class="rvts72"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<h2 class="rvps27"><span class="rvts0"><span class="rvts91">Credit Card Payment</span></span></h2>
+<p class="rvps11"><span class="rvts72"><br/></span></p>
+<p class="rvps8"><span class="rvts73">&nbsp;Select 'Credit Card' under Payment Type and enter the amount being paid.</span></p>
+<p class="rvps8"><span class="rvts73">You can select a card already on file using the drop down arrow, or add a new Credit Card by clicking the 'Add new Credit Card' button.</span></p>
+<p class="rvps8"><span class="rvts93">*Note: </span><span class="rvts94">To use the credit card payment feature you will need to be signed up with </span><a class="rvts96" href="BlueSnapSetup.html#BlueSnap">BlueSnap</a></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem714.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73"><br/></span></p>
+<p class="rvps8"><span class="rvts73">To add a new credit card, click the &nbsp;'Add new Credit Card' button and enter the new credit card details.&nbsp;</span></p>
+<p class="rvps8"><span class="rvts73">When finished, click the 'Create Vaulted Credit Card' button to return to the ticket screen. The new card will now be available for selection.</span></p>
+<p class="rvps8"><span class="rvts73">Credit Card setup can also be found in the Customer menu.</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/NewItem709.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts89"><br/></span></p>
+<p class="rvps19"><span class="rvts89"><br/></span></p>
+<p class="rvps19"><span class="rvts89"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts91">Escrow Payment</span></span></h2>
+<p class="rvps15"><span class="rvts72"><br/></span></p>
+<p class="rvps8"><span class="rvts73">Select 'Escrow' under Payment Type and enter the amount being paid. Current Escrow balance for the customer is highlighted in green.</span></p>
+<p class="rvps8"><span class="rvts73">If there is not enough remaining in Escrow to pay the full ticket balance, you will be able to chose a second payment type for the remaining balance.</span></p>
+<p class="rvps17"><img alt="" style="padding : 1px;" src="lib/NewItem713.png"></p>
+<p class="rvps17"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps17"><span class="rvts73">Once you've selected your payment type and clicked Store Payment,&nbsp;</span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts73"><br/></span></p>
+<p class="rvps19"><span class="rvts51"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Saving Tickets</span></span></h2>
+<p class="rvps19"><span class="rvts63"><br/></span></p>
+<p class="rvps8"><span class="rvts73">If this is your first pass, click 'Store and List' &nbsp;to save the ticket and return to the main Ticket List.&nbsp;</span></p>
+<p class="rvps8"><span class="rvts73">If you would like to create another ticket without returning to the main ticket list, click the 'Store and New' button.&nbsp;</span></p>
+<p class="rvps8"><img alt="" style="padding : 1px;" src="lib/NewItem715.png"></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Print a Ticket</span></span></h2>
+<p class="rvps2"><span class="rvts63"><br/></span></p>
+<p class="rvps8"><span class="rvts73">There is a Print Ticket box at the bottom just above the Store ticket options. Place a check in the Print ticket box and enter the number of copies you would like to print.&nbsp;</span></p>
+<p class="rvps8"><span class="rvts93">*Note: </span><span class="rvts94">Printers will need to be setup in</span><a class="rvts96" href="DeviceHub.html#DevcieHub"> Device Hub</a><span class="rvts94"> to print from the ticket screen.</span></p>
+<p class="rvps8"><span class="rvts73">If the 'Email Ticket' option is turned on in the customer's setup, a pdf copy of the ticket is automatically emailed to them when the ticket has been completed.</span></p>
+<p class="rvps8"><span class="rvts6">If you don't have a printer setup, you can click on the </span><img width="31" height="30" alt="" style="vertical-align: middle; padding : 1px;" src="lib/NewItem171.png"><span class="rvts6">icon for the ticket you would like to print to open the pdf ticket in another browser window.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem716.png"></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">The pdf ticket will open in a new browser tab.</span></p>
+<p class="rvps11"><span class="rvts6">On the top of the page you can see the page count, zoom in/out, fit to page and rotate the page.</span></p>
+<p class="rvps11"><span class="rvts6">At the top right of your screen you can download a pdf version of the ticket, or print the ticket to your windows printer.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem169.png"></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Email a Ticket</span></span></h2>
+<p class="rvps2"><span class="rvts63"><br/></span></p>
+<p class="rvps2"><span class="rvts63"><br/></span></p>
+<p class="rvps9"><span class="rvts6">Click the @ icon to the right of the Ticket you would like to send (ticket will be sent to email address configured in the </span><a class="rvts12" href="Customers.html#customers">Customer</a><a class="rvts97" href="Customers.html#customers"> </a><span class="rvts6">setup.</span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem717.png"></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">You will see a message box stating that the ticket was sent successfully.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem719.png"></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">The Customer with receive an email with a PDF copy of the ticket attached.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem720.png"><span class="rvts6">&nbsp;</span></p>
+<p class="rvps5"><span class="rvts63"><br/></span></p>
+<p class="rvps2"><span class="rvts6"></span><span class="rvts6"></span></p>
+<p class="rvps14" style="clear: both;"><span class="rvts24">Created with the Personal Edition of HelpNDoc: </span><a class="rvts25" href="https://www.helpndoc.com/feature-tour">Easily create Help documents</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

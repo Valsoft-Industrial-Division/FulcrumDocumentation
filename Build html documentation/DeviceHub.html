@@ -1,0 +1,676 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.9.1.631">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Device Hub</title>
+  <meta name="description" content="DeviceHub" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Device Hub">
+  <meta name="twitter:description" content="DeviceHub">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Device Hub" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="DeviceHub" />
+  <meta property="og:site_name" content="Fulcrum Help" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+  <style type="text/css">.navigation #inline-toc { width: auto !important}</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>Fulcrum Help</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="DeviceHub"
+		  data-hnd-context="18"
+		  data-hnd-title="Device Hub"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="GettingStarted.html">Getting Started</a></li><li><a href="AdminTools.html">Admin Tools</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="AdminTools.html" title="Admin Tools" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="FeaturesandTiers.html" title="Features and Tiers" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="LogOut.html" title="Log Out" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>Device Hub</h2>
+
+            <div class="main-content">
+                
+<p class="rvps6"><a name="DevcieHub"></a><img width="366" height="44" alt="" style="padding : 1px;" src="lib/NewItem159.png"></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><img alt="" style="padding : 1px;" src="lib/NewItem158.png"></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts26"><br/></span></p>
+<p class="rvps6"><span class="rvts78"><br/></span></p>
+<p class="rvps11"><span class="rvts6">Device Hub for Fulcrum allows for reading weight (via a secure channel) from your scale indicator directly into the Fulcrum application.&nbsp;</span></p>
+<p class="rvps11"><span class="rvts6">It can also facilitate sending/receiving data from other local devices such as cameras and printers.</span></p>
+<p class="rvps11"><span class="rvts6">This feature can be used for Ticketing and other areas of Fulcrum.</span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Download/Install Fulcrum Device Hub</span></span></h2>
+<p class="rvps2"><span class="rvts19"><br/></span></p>
+<p class="rvps2"><span class="rvts19"><br/></span></p>
+<p class="rvps11"><span class="rvts6">From the Admin Menu, click on 'Download and Install Device Hub'.</span></p>
+<p class="rvps11"><span class="rvts6">On the Download and Install Device Hub main screen, click the </span><span class="rvts51">'Download Setup for Device Hub'</span><span class="rvts6"> button at the bottom of the page.</span></p>
+<p class="rvps11"><span class="rvts6">&nbsp;Once the installation is finished, you can access Fulcrum Device Hub from the Windows Start Menu.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem157.png"></p>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Configuring Device Hub</span></span></h2>
+<p class="rvps2"><span class="rvts19"><br/></span></p>
+<p class="rvps2"><span class="rvts19"><br/></span></p>
+<p class="rvps9"><span class="rvts67">From the Start Menu, launch the Fulcrum Device Hub application.</span></p>
+<p class="rvps9"><span class="rvts67"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem156.png"><span class="rvts6"> &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">If a new version of Device Hub is available, you will have the option to download and install or skip the update.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem155.png"></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">General Settings</span></span></h2>
+<p class="rvps9"><span class="rvts51"><br/></span></p>
+<p class="rvps11"><span class="rvts6">In the Device Hub application, click Setup and choose </span><span class="rvts51">General Settings</span><span class="rvts6"> from the drop down list.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem154.png"></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem153.png"><span class="rvts6">\</span></p>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="134" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Fulcrum URL</span></p>
+  </td>
+  <td width="1042" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Fulcrum application URL (</span><a class="rvts12" href="https://app.smsturbo.com/" target="_blank">https://app.smsturbo.com</a><span class="rvts6">)</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="134" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">User (Email)</span></p>
+  </td>
+  <td width="1042" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Valid Fulcrum user login.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="134" height="23" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Customer #</span></p>
+  </td>
+  <td width="1042" height="23" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Customer number can be found in Admin Menu--&gt; About (only accessible to users with Admin permissions).</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="134" height="27" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Hub Key</span></p>
+  </td>
+  <td width="1042" height="27" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">The Hub Key can be found in Admin Menu--&gt; About (only accessible to users with Admin permissions).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Add Printer</span></span></h2>
+<p class="rvps2"><span class="rvts19"><br/></span></p>
+<p class="rvps2"><span class="rvts19"><br/></span></p>
+<p class="rvps9"><span class="rvts67">Under Setup, click on </span><span class="rvts76">'Add Printer</span><span class="rvts67">'.</span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem152.png"></p>
+<p class="rvps9"><span class="rvts19"><br/></span></p>
+<p class="rvps9"><span class="rvts19"><br/></span></p>
+<p class="rvps9"><span class="rvts19"><br/></span></p>
+<p class="rvps9"><span class="rvts67">Printer setup will show a list of Windows available printers. Select your printer from the list and the number of copies you would like printed.</span></p>
+<p class="rvps9"><span class="rvts67">Click Save to return to the Device Hub main screen.&nbsp;</span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem151.png"></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">You will now see the Printer in the device hub main window and the connection status, along with how many print requests have been received, how many requests&nbsp;</span></p>
+<p class="rvps11"><span class="rvts6">have been printed, any errors that occurred while trying to print.</span></p>
+<p class="rvps9"><img alt="" style="padding : 1px;" src="lib/NewItem150.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Add New Scale</span></span></h2>
+<p class="rvps2"><span class="rvts51"><br/></span></p>
+<p class="rvps9"><span class="rvts51"><br/></span></p>
+<p class="rvps9"><span class="rvts67">Under Setup, click &nbsp;</span><span class="rvts76">'Add new scale</span><span class="rvts67">'.</span></p>
+<p class="rvps9"><span class="rvts6"><br/></span></p>
+<p class="rvps49"><img alt="" style="padding : 1px;" src="lib/NewItem149.png"></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<h3 class="rvps36"><span class="rvts0"><span class="rvts65">Add a Simulated Scale</span></span></h3>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">To setup a simulation scale, select '</span><span class="rvts15">SIM</span><span class="rvts6">' from the Conn. Type drop down menu and give your scale a name.&nbsp;</span></p>
+<p class="rvps11"><span class="rvts6">SIM scales do not need to be configured as they're not actually reading from a scale, just providing the ability to manually enter weights for testing purposes only.</span></p>
+<p class="rvps11"><span class="rvts6">Click </span><span class="rvts77">Save</span><span class="rvts6"> to apply changes or </span><span class="rvts77">Cancel</span><span class="rvts6"> to return to main screen without saving.&nbsp;</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem148.png"></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">Weight can be manipulated by left-click and hold on your mouse and then sliding the blue pointer to the left (decrease weight) or right (increase weight).</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem147.png"></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps49"><span class="rvts6">To configure the scale or delete the scale after it's been added, right-click on the scale from the main window.&nbsp;</span></p>
+<p class="rvps49"><img alt="" style="padding : 1px;" src="lib/NewItem146.png"></p>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts67"><br/></span></p>
+<h3 class="rvps36"><span class="rvts0"><span class="rvts65">Add a Serial Scale</span></span></h3>
+<p class="rvps2"><span class="rvts84"><br/></span></p>
+<p class="rvps11"><span class="rvts6">To setup a serial scale, select '</span><span class="rvts15">SERIAL</span><span class="rvts6">' from the Conn.Type drop down menu and give your scale a name.</span></p>
+<p class="rvps11"><span class="rvts6">Configure the scale based on your scale indicator settings (you may have to contact a scale tech or person(s) that installed the scale to retrieve this information).</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem145.png"></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<h4 class="rvps54"><span class="rvts0"><span class="rvts82">Scale Information</span></span></h4>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="166" height="23" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Name</span></p>
+  </td>
+  <td width="1010" height="23" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Give your scale a name.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="166" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Connection Type</span></p>
+  </td>
+  <td width="1010" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Valid Fulcrum user login.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="166" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Number</span></p>
+  </td>
+  <td width="1010" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Customer number can be found in Admin Menu--&gt; About (only accessible to users with Admin permissions).</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<h4 class="rvps54"><span class="rvts0"><span class="rvts82">Communication to Scale</span></span></h4>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="161" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Port</span></p>
+  </td>
+  <td width="1160" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">COM port number that the scale is connected to.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Baud</span></p>
+  </td>
+  <td width="1160" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Rate that information can be transferred (9600 is the standard default).</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Data Bits</span></p>
+  </td>
+  <td width="1160" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts39">Measures the actual data bits in communication.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Stop Bits</span></p>
+  </td>
+  <td width="1160" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts80">Represents the last bit of a single packet.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Parity</span></p>
+  </td>
+  <td width="1160" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts79">Can be set to Odd or Even. Provide</span><span class="rvts6"> a simple form of error detection</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Handshake</span></p>
+  </td>
+  <td width="1160" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts39">Handshaking is used to prevent receiver overloading. By using Handshaking signals, receivers will be able to tell the sending device to pause data transmission if the receiver is overloaded.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<h4 class="rvps53"><span class="rvts0"><span class="rvts82"><br/></span></span></h4>
+<h4 class="rvps54"><span class="rvts0"><span class="rvts82">Output from Indicator</span></span></h4>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="167" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Format Length</span></p>
+  </td>
+  <td width="1009" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">The count of ALL characters in the data stream. Note that all characters count as one each,</span><span class="rvts70">except&nbsp;</span><span class="rvts6">any characters that are wrapped in (). These bracketed characters (including the brackets) count as one.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Sample Rate</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps52"><span class="rvts6">Should stay set at 2. This is how many samples&nbsp;of the data stream that ScaleCOM will take before accepting a good weight reading.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Units Location</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps52"><span class="rvts6">If the units location is "LB" &nbsp;you will count from left to right the number of characters there are until the "L".&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Weight Units</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts38">This is the unit of measure that the scale is running in (usually LB).</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Weight Location</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps52"><span class="rvts81">The character in the weight string that you start reading the scale weight.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Format Terminator</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts38">In almost all cases this is CRLF or (0D) the last set of characters in the string.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Weight Length</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts38">Usually 6. The max length of weight. Example 120000 LBs.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Motion Location</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps52"><span class="rvts6">The location of the character that shows when there is motion on the scale.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Motion Char</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts38">This is the character that shows when there is motion on the scale.&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Motion Timeout</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts38">(in seconds) The time waited for the motion on the scale to stop.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="167" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts27">Motion Tolerance</span></p>
+  </td>
+  <td width="1009" height="21" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts38">The amount of tolerance (weight) allowed to not consider the scale in motion.&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">Once you've entered your scale configurations, click Save on the bottom of the screen to be returned to the main Device Hub window.</span></p>
+<p class="rvps11"><span class="rvts6">You will now see the scale in the device hub main window and the connection status and weight currently on the scale.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem144.png"></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<p class="rvps5"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Add Camera</span></span></h2>
+<p class="rvps2"><span class="rvts51"><br/></span></p>
+<p class="rvps2"><span class="rvts51"><br/></span></p>
+<p class="rvps9"><span class="rvts51"><br/></span></p>
+<p class="rvps11"><span class="rvts6">Under Setup click </span><span class="rvts15">'Add Camera'</span><span class="rvts6">.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem143.png"></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">Enter your camera details to add or configure a camera.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem142.png"><span class="rvts51">\</span></p>
+<div class="rvps2">
+<table width="75%" border="1" cellpadding="2" cellspacing="0" style="border-width: 0px; border-spacing: 0px;">
+ <tr valign="top">
+  <td width="161" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Camera Name</span></p>
+  </td>
+  <td width="1160" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Enter a name to identify your camera.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">URL</span></p>
+  </td>
+  <td width="1160" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">The URL of your camera and location screenshots are stored. Check your camera configuration to ensure you have the proper URL format.</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">User</span></p>
+  </td>
+  <td width="1160" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Optional. Enter camera login credentials if required</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Password</span></p>
+  </td>
+  <td width="1160" height="22" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Optional. Enter camera login credentials if required</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="161" height="36" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps9"><span class="rvts15">Default Brand</span></p>
+  </td>
+  <td width="1160" height="36" valign="top" style="border-width : 1px; border-color: #ffffff; border-style: solid; padding: 2px;">
+   <p class="rvps2"><span class="rvts6">Click the drop down arrow to display a list of common camera brands, if your brand is listed select it and click apply. The URL will automatically be filled in with the correct URL format. Make sure to change the &lt;IP:PORT_HERE&gt; to your own camera IP and port.</span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps11"><span class="rvts6">Once you've entered your Camera configurations, click Save on the bottom of the screen to be returned to the main Device Hub window.</span></p>
+<p class="rvps11"><span class="rvts6">You will now see the Camera in the device hub main window and the connection status, along with how many screenshots have been received, how many requests have been handled,&nbsp;</span></p>
+<p class="rvps11"><span class="rvts6">any errors that occurred while taking a screenshot and it will also show you a thumbnail of the last image captured.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem141.png"></p>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<h2 class="rvps23"><span class="rvts0"><span class="rvts49">Terminal</span></span></h2>
+<p class="rvps51"><span class="rvts6"><br/></span></p>
+<p class="rvps9"><span class="rvts67">Under Setup, click &nbsp;'</span><span class="rvts76">Terminal</span><span class="rvts67">'.</span></p>
+<p class="rvps9"><span class="rvts67"><br/></span></p>
+<p class="rvps49"><img alt="" style="padding : 1px;" src="lib/NewItem140.png"></p>
+<p class="rvps49"><span class="rvts6"><br/></span></p>
+<p class="rvps49"><span class="rvts67"><br/></span></p>
+<p class="rvps11"><span class="rvts83">The Terminal option can be used to determine a connection to the scale and confirm the correct scale settings are being used in scale configuration.&nbsp;</span></p>
+<p class="rvps11"><span class="rvts83">At the bottom of the screen under Serial Port Settings, pick your scale COM port, baud rate, data bits, stop bits and parity from the drop down menus.&nbsp;</span></p>
+<p class="rvps11"><span class="rvts83">Click the 'Open Port' button.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem139.png"></p>
+<p class="rvps11"><span class="rvts83"><br/></span></p>
+<p class="rvps11"><span class="rvts83"><br/></span></p>
+<p class="rvps11"><span class="rvts83"><br/></span></p>
+<p class="rvps11"><span class="rvts83">Once the port is open, you will see the data output sent from your scale in the top window.</span></p>
+<p class="rvps11"><span class="rvts83">To check data output manually, enter command and click send.</span></p>
+<p class="rvps11"><img alt="" style="padding : 1px;" src="lib/NewItem138.png"></p>
+<p class="rvps18"><span class="rvts26"></span><span class="rvts26"></span></p>
+<p class="rvps14" style="clear: both;"><span class="rvts24">Created with the Personal Edition of HelpNDoc: </span><a class="rvts25" href="https://www.helpndoc.com/feature-tour/create-help-files-for-the-qt-help-framework">Create cross-platform Qt Help files</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App({
+        searchEngineMinChars: 3
+      });
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
